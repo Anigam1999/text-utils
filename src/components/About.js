@@ -5,7 +5,7 @@ export default function About(props) {
     // const [myStyle, setmyStyle] = useState({
     //     color: 'black',
     //     backgroundColor: 'white'
-    // })
+    // }) 
     let myStyle = {
         color: props.mode === 'dark' ? 'white':'#042743',
         backgroundColor: props.mode === 'dark' ? '#042743':'white'

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function 
 Navbar(props) {
-  return (
+  return ( 
     <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme={`${props.mode}`}>
     <div className="container-fluid">
       <Link className="navbar-brand" to="/">{props.title}</Link>
